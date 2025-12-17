@@ -1,57 +1,51 @@
-<img src="https://r2cdn.perplexity.ai/pplx-full-logo-primary-dark%402x.png" style="height:64px;margin-right:32px"/>
 
-# can u do the same for chapter 2
-
-**Unit 2 – Assembly Language, Stacks, Subroutines, IO, and Bus Structure**[^1]
-├── Assembly Language[^1]
-│   └── Assembler Directives[^1]
-│       ├── ORIGIN[^1]
-│       ├── RESERVE[^1]
-│       ├── DATAWORD[^1]
-│       └── EQU[^1]
-├── Stacks[^1]
-│   ├── Stack Operations (Push/Pop)[^1]
-│   ├── Stack Pointer (SP)[^1]
-│   └── Stack Implementation[^1]
-├── Subroutines[^1]
-│   ├── Subroutine Linkage (Link Register)[^1]
-│   ├── Subroutine Nesting[^1]
-│   ├── Parameter Passing[^1]
-│   │   ├── Registers[^1]
-│   │   ├── Memory Locations[^1]
-│   │   └── Stack[^1]
-│   └── Stack Frames (Frame Pointer FP)[^1]
-├── Additional Instructions[^1]
-│   ├── Logic Instructions (AND, OR, NOT)[^1]
-│   ├── Shift Instructions[^1]
-│   │   ├── Logical Shift Left/Right[^1]
-│   │   └── Arithmetic Right Shift[^1]
-│   ├── Rotate Instructions[^1]
-│   │   ├── Rotate with/without Carry[^1]
-│   └── Multiplication/Division Instructions[^1]
-├── Basic Input/Output[^1]
-│   ├── IO Device Interfaces[^1]
-│   ├── Memory-Mapped vs Isolated IO[^1]
-│   └── Program-Controlled IO[^1]
-├── Interrupts[^1]
-│   ├── Interrupt Service Routines (ISR)[^1]
-│   ├── Interrupt Latency[^1]
-│   ├── Polling[^1]
-│   ├── Vectored Interrupts[^1]
-│   ├── Interrupt Nesting[^1]
-│   ├── Priority Structure[^1]
-│   ├── Interrupt Enable/Disable[^1]
-│   └── Exceptions[^1]
-└── Bus Structure[^1]
-├── Bus Lines (Address/Data/Control)[^1]
-├── Bus Protocols[^1]
-│   ├── Synchronous Bus[^1]
-│   └── Asynchronous Bus (Handshake)[^1]
-└── Bus Arbitration[^1]
-├── Bus Requests/Grants[^1]
-└── Priority Schemes[^1]
-
-<div align="center">⁂</div>
-
-[^1]: unit-2.pdf
-
+**Unit 2 – Assembly Language, Stacks, Subroutines, IO, and Bus Structure**
+```txt
+├── Assembly Language  
+│   └── Assembler Directives  
+│       ├── ORIGIN  
+│       ├── RESERVE  
+│       ├── DATAWORD  
+│       └── EQU  
+├── Stacks  
+│   ├── Stack Operations (Push/Pop)  
+│   ├── Stack Pointer (SP)  
+│   └── Stack Implementation  
+├── Subroutines  
+│   ├── Subroutine Linkage (Link Register)  
+│   ├── Subroutine Nesting  
+│   ├── Parameter Passing  
+│   │   ├── Registers  
+│   │   ├── Memory Locations  
+│   │   └── Stack  
+│   └── Stack Frames (Frame Pointer FP)  
+├── Additional Instructions  
+│   ├── Logic Instructions (AND, OR, NOT)  
+│   ├── Shift Instructions  
+│   │   ├── Logical Shift Left/Right  
+│   │   └── Arithmetic Right Shift  
+│   ├── Rotate Instructions  
+│   │   ├── Rotate with/without Carry  
+│   └── Multiplication/Division Instructions  
+├── Basic Input/Output  
+│   ├── IO Device Interfaces  
+│   ├── Memory-Mapped vs Isolated IO  
+│   └── Program-Controlled IO  
+├── Interrupts  
+│   ├── Interrupt Service Routines (ISR)  
+│   ├── Interrupt Latency  
+│   ├── Polling  
+│   ├── Vectored Interrupts  
+│   ├── Interrupt Nesting  
+│   ├── Priority Structure  
+│   ├── Interrupt Enable/Disable  
+│   └── Exceptions  
+└── Bus Structure  
+├── Bus Lines (Address/Data/Control)  
+├── Bus Protocols  
+│   ├── Synchronous Bus  
+│   └── Asynchronous Bus (Handshake)  
+└── Bus Arbitration  
+├── Bus Requests/Grants  
+└── Priority Schemes  
+````
